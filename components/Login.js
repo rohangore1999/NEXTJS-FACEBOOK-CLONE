@@ -15,7 +15,7 @@ function Login() {
                 {/* for post picture */}
                 <meta property="og:title" content="" />
                 <meta property="og:type" content="" />
-                <meta property="og:image" content="/facebook_logo.png" />
+                <meta property="og:image" content="/facebook-Logo.png" />
                 <meta name="twitter:card" content="summary_large_image" />
 
                 <meta property="og:description" content="" />
