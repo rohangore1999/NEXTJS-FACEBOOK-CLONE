@@ -11,7 +11,7 @@ function Header() {
     // to get the authenticated user details
     const [session] = useSession()
     return (
-        <div className='flex items-center sticky top-0 z-50 shadow-md bg-white lg:px-5'>
+        <div className='flex items-center sticky top-0 z-50 shadow-md bg-white lg:px-5 h-16 px-2'>
             {/* left */}
             <div className='flex items-center '>
                 <Image src={'https://links.papareact.com/5me'} width={40} height={40} layout='fixed' />
@@ -39,7 +39,7 @@ function Header() {
                 {/* Profile Pic */}
                 <Image onClick={signOut} src={session.user.image} className='rounded-full cursor-pointer' width={'40'} height={'40'} layout='fixed' />
                 
-                <p className='font-semibold pr-3 whitespace-nowrap'>{session?.user?.name}</p>
+                <p className='hidden sm:flex font-semibold pr-3 whitespace-nowrap'>{session?.user?.name}</p>
                 <ViewGridIcon className='icon' />
                 <ChatIcon className='icon' />
                 <BellIcon className='icon' />
