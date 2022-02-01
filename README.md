@@ -1,6 +1,6 @@
 NEXTJS-FACEBOOK-CLONE using NextJs, Next Auth with Facebook Provider, Firebase and Firebase Hooks, TailwindCSS.
 
-Deployed on Varcel ~ https://nextjs-facebook-clone-ncap9ftz3-rohangore1999.vercel.app/
+Deployed on Varcel ~ https://nextjs-facebook-clone-gkiyl7968-rohangore1999.vercel.app/
 
 ------------------------------------------------------------------------------------------------------------------------
 
